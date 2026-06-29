@@ -1,1 +1,1 @@
-Stale Multimedia Viewer
+Stale Multimedia Player
