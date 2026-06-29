@@ -11,7 +11,10 @@ target_link_directories(Stale PRIVATE
     ${GSTREAMER_ROOT}/lib
 )
 target_link_libraries(Stale PRIVATE
-    gstreamer-1.0
-    glib-2.0
-    gobject-2.0
+    gstreamer-1.0.lib
+    glib-2.0.lib
+    gobject-2.0.lib
+    gstvideo-1.0.lib
+    cairo.lib
+    gstcontroller-1.0.lib
 )
